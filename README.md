@@ -1,4 +1,4 @@
-# Artix-Linux-Tutorials
+# Artix Linux Tutorials
 
 My personal notes on how to install and fix things in Artix Linux. Use at your own risk.
 
