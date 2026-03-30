@@ -1,6 +1,6 @@
 # ufw firewall installation guide
 
-## Install 
+## Step 1: Install 
 
 Depending on your init system, you must choose the right package from repos:
 
@@ -13,7 +13,7 @@ For example:
 
     sudo pacman -S ufw-openrc
 
-## Starting a service
+## Step 2: Starting a service
     
 After the installation has finished, you must start the service:
 
@@ -23,7 +23,7 @@ Then, add the service to default runlevel:
 
     sudo rc-update add ufw default
 
-## Verification
+## Step 3: Verification
     
 Once done, you can verify that `ufw` is succesfully added as a service:
 
