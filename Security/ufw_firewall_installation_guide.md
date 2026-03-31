@@ -13,7 +13,7 @@ For example:
 
     sudo pacman -S ufw-openrc
 
-## Step 2: Starting a service
+## Step 2: Starting a service (OpenRC)
     
 After the installation has finished, you must start the service:
 
@@ -23,7 +23,7 @@ Then, add the service to default runlevel:
 
     sudo rc-update add ufw default
 
-## Step 3: Verification
+## Step 3: Verification (OpenRC)
     
 Once done, you can verify that `ufw` is succesfully added as a service:
 
