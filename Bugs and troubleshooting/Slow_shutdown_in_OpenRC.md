@@ -24,6 +24,8 @@ I deleted `modemmanager`, because I didn't need it anyway:
 
     sudo pacman -R modemmanager
 
-The messages are not visible anymore during the shutdown and the shutdown process is now a little bit faster.
+The ModemManager messages are not visible anymore during the shutdown and the shutdown process is now a little bit faster.
 
 There may (or may not) be better solutions available.
+
+Note: This solution doesn't affect the `nm-dispatcher` messages. They are still visible.
